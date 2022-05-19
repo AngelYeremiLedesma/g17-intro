@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 12px;
+}
+
+a{
+    font-family: sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.apps{
+    margin: 0px 0px 0px 15px;
+}
+.apps:hover{
+    text-decoration: underline;
+}
+
+div.contenedor-menu{
+    height:16px;
+    width: 16px;    
+    padding: 10px 10px 10px 10px;
+    margin: 0px 0px 0px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#menu{
+    height:16px;
+    width: 16px;
+    margin: 0px;
+    padding: 0px;
+}
+
+div.contenedor-menu:hover{
+    background-color: rgb(240, 240, 240);
+} 
+
+#perfil{
+    height: 32px;
+    width: 32px;
+    margin: 0px;
+    border-radius: 50%;
+}
+
+div.contenedor-perfil{   
+    height: 32px;
+    width: 32px;
+    padding: 4px;
+    margin: 0px 0px 0px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+div.contenedor-perfil:hover{
+    background-color: rgb(240, 240, 240);
+} 
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo{
+    height: 92px;
+    margin: 17px;
+}
+
+div.searcher{
+    margin: 18px 0px;
+    padding: 5px 10px;
+    border: solid 1px;
+    border-color:rgb(220, 220, 220);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#input-search{
+    font-size: 17px;
+    border: none;
+    padding: 0px 10px;
+    width: 40vw;
+    height: 34px;
+    outline: none;
+}
+
+div.searcher img{
+    cursor: pointer;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+}
+
+.botones a{
+    font-family: sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+button{
+    padding:10px 16px;
+    border: #f8f9fa solid 1px;
+    margin: 5px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+}
+button:hover{
+    border: solid rgb(200, 200, 200) 1px;
+}
+
+footer{
+    font-family: sans-serif;
+    color: #70757a;
+    background-color: rgb(245, 245, 245);
+    position: fixed;
+    bottom: 0;
+}
+
+.pais{
+    width: 100vw;
+    margin: 15px 30px;
+    font-size: 15px;
+}
+
+footer a{
+    color: rgb(108, 108, 115);
+    padding: 15px;
+    font-size: 14px;
+}
+
+div.contenedor-padre{
+    border-top: solid rgb(228, 228, 228) 1px;
+}
+
+div.contenedor{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    margin: 15px 30px;
+}
+
+
+hr{
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    height: 0px;
+}
+
+
+

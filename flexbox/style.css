@@ -1,0 +1,26 @@
+div.contenedor{
+    display: flex;
+    flex-direction: column;
+    /*flex-direction: row-reverse;*/
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* flex-flow: column-reverse row-reverse;
+    justify-content: center; */
+    align-items: center;
+}
+
+/* .especial{
+flex-grow: 2;
+order: 1; //0 es el valor por defecto
+align-self: flex-end;
+} */
+
+p{
+    width: 250px;
+    background-color: greenyellow;
+}
+
+button{
+    height: 100px;
+
+}

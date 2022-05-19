@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+#fondo:before {
+	content:'';
+    position: absolute;
+    top: 0;
+    height: 40vw;
+	left: 0;
+	right: 0;
+	background: linear-gradient(to top,rgba(0,0,0,1),rgba(50,50,50,0.1));
+    z-index: -1;
+}
+
+video{
+    width: 98.7vw;
+    position: absolute;
+    top: 0;
+    z-index: -2;
+}
+
+nav{
+    top: 0;
+    padding: 0px 60px;
+    display: flex;
+    justify-content: space-between;
+    position:sticky;
+    /* background:  linear-gradient(to bottom,rgba(0,0,0,1),rgba(50,50,50,0)); */
+}
+
+div.links img{
+    height: 60px;
+    margin-right: 30px;
+}
+
+#bell{
+    height: 25px;
+}
+
+#triangle{
+    height: 12px;
+    margin: 0;
+}
+
+div.perfiles img{
+    height: 32px;
+    border-radius: 5px;
+    margin: 0px 10px;
+}
+
+nav div{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+main img{
+    height: 25vh;
+}
+
+div.white-button{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 120px;
+    margin-right: 10px;
+}
+
+div.white-button a{
+    color: black;
+    font-weight: bold;
+}
+
+div.gray-button{
+    background-color: #6D6D6EB3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 170px;
+}
+
+div.spaced-buttons{
+    display: flex;
+}
+
+main{
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 50px;
+    padding-top: 15vh;
+    padding-bottom: 5vh;
+}
+
+div.container{
+    margin: 10px 0px 10px 50px;
+}
+
+div.carrusel{
+    /*height: 134px;*/
+    height: 10.5vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    margin: 0;
+    padding: 50px 15vw;
+}
+
+footer a{
+    color: #757575;
+    width: 17vw;
+    margin: 10px 0px;
+    font-size: 13px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+div.legal{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.button{
+    margin-top: 6vh;
+}
+
+section a#service-code{
+    margin-top: 100px;
+    font-size: 14px;
+    border: #808080 1px solid;
+    padding: 7px 10px;
+}
+
+section a#service-code:hover{
+    border: white 1px solid;
+    text-decoration: none;
+    color: white;
+}
